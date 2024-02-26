@@ -17,13 +17,13 @@ struct ContentView: View {
                 NavigationLink(destination: PomodoroTimerView()) {
                     Text("🍅    Pomodoro")
                 }
-                NavigationLink(destination: DetailView(title: "Preparation")) {
+                NavigationLink(destination: PreparationTimerView()) {
                     Text("⏲️    Preparation")
                 }
-                NavigationLink(destination: DetailView(title: "Sleep Timer")) {
+                NavigationLink(destination: SleepTimerView()) {
                     Text("🛏️   Sleep Timer")
                 }
-                NavigationLink(destination: DetailView(title: "Reading")) {
+                NavigationLink(destination: ReadingTimerView()) {
                     Text("📖    Reading")
                 }
             }

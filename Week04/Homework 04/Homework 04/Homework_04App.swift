@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct Week04_RandomShapesApp: App {
+struct Homework_04App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

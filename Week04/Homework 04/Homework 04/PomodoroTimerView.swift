@@ -24,6 +24,12 @@ struct PomodoroTimerView: View {
             TimeDisplay(timeRemaining: $timeRemaining)
                 .onTapGesture {
                     self.timerIsRunning.toggle() // Tap to stop and resume
+/*
+                    if self.timerIsRunning {
+                                            let audioURL = URL(string: "YOUR_AUDIO_URL_HERE")! // Replace with your audio URL
+                                            AudioManager.shared.playAudio(from: audioURL)
+                                        }
+ */
                 }
         }
         .onReceive(timer) { _ in
