@@ -21,6 +21,7 @@
 		24D390212B8D34C800BA5962 /* PreparationTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D390202B8D34C800BA5962 /* PreparationTimerView.swift */; };
 		24D390232B8D379300BA5962 /* ReadingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D390222B8D379300BA5962 /* ReadingTimerView.swift */; };
 		24D390252B8D382500BA5962 /* SleepTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D390242B8D382500BA5962 /* SleepTimerView.swift */; };
+		24D390272B8D40DB00BA5962 /* PomodoroAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D390262B8D40DB00BA5962 /* PomodoroAudio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		24D390202B8D34C800BA5962 /* PreparationTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreparationTimerView.swift; sourceTree = "<group>"; };
 		24D390222B8D379300BA5962 /* ReadingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingTimerView.swift; sourceTree = "<group>"; };
 		24D390242B8D382500BA5962 /* SleepTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTimerView.swift; sourceTree = "<group>"; };
+		24D390262B8D40DB00BA5962 /* PomodoroAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroAudio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				24D38FE92B8C925200BA5962 /* Homework_04App.swift */,
 				24D38FEB2B8C925200BA5962 /* ContentView.swift */,
 				24D3901C2B8D064900BA5962 /* PomodoroTimerView.swift */,
+				24D390262B8D40DB00BA5962 /* PomodoroAudio.swift */,
 				24D390202B8D34C800BA5962 /* PreparationTimerView.swift */,
 				24D390222B8D379300BA5962 /* ReadingTimerView.swift */,
 				24D390242B8D382500BA5962 /* SleepTimerView.swift */,
@@ -291,6 +294,7 @@
 				24D390232B8D379300BA5962 /* ReadingTimerView.swift in Sources */,
 				24D390212B8D34C800BA5962 /* PreparationTimerView.swift in Sources */,
 				24D390252B8D382500BA5962 /* SleepTimerView.swift in Sources */,
+				24D390272B8D40DB00BA5962 /* PomodoroAudio.swift in Sources */,
 				24D38FEA2B8C925200BA5962 /* Homework_04App.swift in Sources */,
 				24D3901D2B8D064900BA5962 /* PomodoroTimerView.swift in Sources */,
 				24D3901B2B8CFDA000BA5962 /* Icon.swift in Sources */,

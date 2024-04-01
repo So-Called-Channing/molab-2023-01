@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24D390352B9160EE00BA5962 /* Trail_HuntApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D390342B9160EE00BA5962 /* Trail_HuntApp.swift */; };
+		24D390372B9160EE00BA5962 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D390362B9160EE00BA5962 /* ContentView.swift */; };
+		24D390392B9160EE00BA5962 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D390382B9160EE00BA5962 /* Item.swift */; };
+		24D3903B2B9160EF00BA5962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D3903A2B9160EF00BA5962 /* Assets.xcassets */; };
+		24D3903E2B9160EF00BA5962 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D3903D2B9160EF00BA5962 /* Preview Assets.xcassets */; };
+		24D390482B9160EF00BA5962 /* Trail_HuntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D390472B9160EF00BA5962 /* Trail_HuntTests.swift */; };
+		24D390522B9160EF00BA5962 /* Trail_HuntUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D390512B9160EF00BA5962 /* Trail_HuntUITests.swift */; };
+		24D390542B9160EF00BA5962 /* Trail_HuntUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D390532B9160EF00BA5962 /* Trail_HuntUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24D390442B9160EF00BA5962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24D390292B9160EE00BA5962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24D390302B9160EE00BA5962;
+			remoteInfo = "Trail Hunt";
+		};
+		24D3904E2B9160EF00BA5962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24D390292B9160EE00BA5962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24D390302B9160EE00BA5962;
+			remoteInfo = "Trail Hunt";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24D390312B9160EE00BA5962 /* Trail Hunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trail Hunt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D390342B9160EE00BA5962 /* Trail_HuntApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trail_HuntApp.swift; sourceTree = "<group>"; };
+		24D390362B9160EE00BA5962 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		24D390382B9160EE00BA5962 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		24D3903A2B9160EF00BA5962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24D3903D2B9160EF00BA5962 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		24D390432B9160EF00BA5962 /* Trail HuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trail HuntTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D390472B9160EF00BA5962 /* Trail_HuntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trail_HuntTests.swift; sourceTree = "<group>"; };
+		24D3904D2B9160EF00BA5962 /* Trail HuntUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trail HuntUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D390512B9160EF00BA5962 /* Trail_HuntUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trail_HuntUITests.swift; sourceTree = "<group>"; };
+		24D390532B9160EF00BA5962 /* Trail_HuntUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trail_HuntUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24D3902E2B9160EE00BA5962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D390402B9160EF00BA5962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D3904A2B9160EF00BA5962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24D390282B9160EE00BA5962 = {
+			isa = PBXGroup;
+			children = (
+				24D390332B9160EE00BA5962 /* Trail Hunt */,
+				24D390462B9160EF00BA5962 /* Trail HuntTests */,
+				24D390502B9160EF00BA5962 /* Trail HuntUITests */,
+				24D390322B9160EE00BA5962 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24D390322B9160EE00BA5962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24D390312B9160EE00BA5962 /* Trail Hunt.app */,
+				24D390432B9160EF00BA5962 /* Trail HuntTests.xctest */,
+				24D3904D2B9160EF00BA5962 /* Trail HuntUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24D390332B9160EE00BA5962 /* Trail Hunt */ = {
+			isa = PBXGroup;
+			children = (
+				24D390342B9160EE00BA5962 /* Trail_HuntApp.swift */,
+				24D390362B9160EE00BA5962 /* ContentView.swift */,
+				24D390382B9160EE00BA5962 /* Item.swift */,
+				24D3903A2B9160EF00BA5962 /* Assets.xcassets */,
+				24D3903C2B9160EF00BA5962 /* Preview Content */,
+			);
+			path = "Trail Hunt";
+			sourceTree = "<group>";
+		};
+		24D3903C2B9160EF00BA5962 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				24D3903D2B9160EF00BA5962 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		24D390462B9160EF00BA5962 /* Trail HuntTests */ = {
+			isa = PBXGroup;
+			children = (
+				24D390472B9160EF00BA5962 /* Trail_HuntTests.swift */,
+			);
+			path = "Trail HuntTests";
+			sourceTree = "<group>";
+		};
+		24D390502B9160EF00BA5962 /* Trail HuntUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24D390512B9160EF00BA5962 /* Trail_HuntUITests.swift */,
+				24D390532B9160EF00BA5962 /* Trail_HuntUITestsLaunchTests.swift */,
+			);
+			path = "Trail HuntUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24D390302B9160EE00BA5962 /* Trail Hunt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D390572B9160EF00BA5962 /* Build configuration list for PBXNativeTarget "Trail Hunt" */;
+			buildPhases = (
+				24D3902D2B9160EE00BA5962 /* Sources */,
+				24D3902E2B9160EE00BA5962 /* Frameworks */,
+				24D3902F2B9160EE00BA5962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trail Hunt";
+			productName = "Trail Hunt";
+			productReference = 24D390312B9160EE00BA5962 /* Trail Hunt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24D390422B9160EF00BA5962 /* Trail HuntTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D3905A2B9160EF00BA5962 /* Build configuration list for PBXNativeTarget "Trail HuntTests" */;
+			buildPhases = (
+				24D3903F2B9160EF00BA5962 /* Sources */,
+				24D390402B9160EF00BA5962 /* Frameworks */,
+				24D390412B9160EF00BA5962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24D390452B9160EF00BA5962 /* PBXTargetDependency */,
+			);
+			name = "Trail HuntTests";
+			productName = "Trail HuntTests";
+			productReference = 24D390432B9160EF00BA5962 /* Trail HuntTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24D3904C2B9160EF00BA5962 /* Trail HuntUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D3905D2B9160EF00BA5962 /* Build configuration list for PBXNativeTarget "Trail HuntUITests" */;
+			buildPhases = (
+				24D390492B9160EF00BA5962 /* Sources */,
+				24D3904A2B9160EF00BA5962 /* Frameworks */,
+				24D3904B2B9160EF00BA5962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24D3904F2B9160EF00BA5962 /* PBXTargetDependency */,
+			);
+			name = "Trail HuntUITests";
+			productName = "Trail HuntUITests";
+			productReference = 24D3904D2B9160EF00BA5962 /* Trail HuntUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24D390292B9160EE00BA5962 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					24D390302B9160EE00BA5962 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					24D390422B9160EF00BA5962 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 24D390302B9160EE00BA5962;
+					};
+					24D3904C2B9160EF00BA5962 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 24D390302B9160EE00BA5962;
+					};
+				};
+			};
+			buildConfigurationList = 24D3902C2B9160EE00BA5962 /* Build configuration list for PBXProject "Trail Hunt" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24D390282B9160EE00BA5962;
+			productRefGroup = 24D390322B9160EE00BA5962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24D390302B9160EE00BA5962 /* Trail Hunt */,
+				24D390422B9160EF00BA5962 /* Trail HuntTests */,
+				24D3904C2B9160EF00BA5962 /* Trail HuntUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24D3902F2B9160EE00BA5962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D3903E2B9160EF00BA5962 /* Preview Assets.xcassets in Resources */,
+				24D3903B2B9160EF00BA5962 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D390412B9160EF00BA5962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D3904B2B9160EF00BA5962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24D3902D2B9160EE00BA5962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D390372B9160EE00BA5962 /* ContentView.swift in Sources */,
+				24D390392B9160EE00BA5962 /* Item.swift in Sources */,
+				24D390352B9160EE00BA5962 /* Trail_HuntApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D3903F2B9160EF00BA5962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D390482B9160EF00BA5962 /* Trail_HuntTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D390492B9160EF00BA5962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D390542B9160EF00BA5962 /* Trail_HuntUITestsLaunchTests.swift in Sources */,
+				24D390522B9160EF00BA5962 /* Trail_HuntUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24D390452B9160EF00BA5962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24D390302B9160EE00BA5962 /* Trail Hunt */;
+			targetProxy = 24D390442B9160EF00BA5962 /* PBXContainerItemProxy */;
+		};
+		24D3904F2B9160EF00BA5962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24D390302B9160EE00BA5962 /* Trail Hunt */;
+			targetProxy = 24D3904E2B9160EF00BA5962 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24D390552B9160EF00BA5962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24D390562B9160EF00BA5962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24D390582B9160EF00BA5962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trail Hunt/Preview Content\"";
+				DEVELOPMENT_TEAM = 7FA7W65UVU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nyu.cy2689.Trail-Hunt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24D390592B9160EF00BA5962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trail Hunt/Preview Content\"";
+				DEVELOPMENT_TEAM = 7FA7W65UVU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nyu.cy2689.Trail-Hunt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24D3905B2B9160EF00BA5962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FA7W65UVU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nyu.cy2689.Trail-HuntTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trail Hunt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Trail Hunt";
+			};
+			name = Debug;
+		};
+		24D3905C2B9160EF00BA5962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FA7W65UVU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nyu.cy2689.Trail-HuntTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trail Hunt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Trail Hunt";
+			};
+			name = Release;
+		};
+		24D3905E2B9160EF00BA5962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FA7W65UVU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nyu.cy2689.Trail-HuntUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trail Hunt";
+			};
+			name = Debug;
+		};
+		24D3905F2B9160EF00BA5962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FA7W65UVU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nyu.cy2689.Trail-HuntUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trail Hunt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24D3902C2B9160EE00BA5962 /* Build configuration list for PBXProject "Trail Hunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D390552B9160EF00BA5962 /* Debug */,
+				24D390562B9160EF00BA5962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D390572B9160EF00BA5962 /* Build configuration list for PBXNativeTarget "Trail Hunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D390582B9160EF00BA5962 /* Debug */,
+				24D390592B9160EF00BA5962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D3905A2B9160EF00BA5962 /* Build configuration list for PBXNativeTarget "Trail HuntTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D3905B2B9160EF00BA5962 /* Debug */,
+				24D3905C2B9160EF00BA5962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D3905D2B9160EF00BA5962 /* Build configuration list for PBXNativeTarget "Trail HuntUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D3905E2B9160EF00BA5962 /* Debug */,
+				24D3905F2B9160EF00BA5962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24D390292B9160EE00BA5962 /* Project object */;
+}

@@ -57,6 +57,68 @@ struct TimeDisplay: View {
     }
 }
 
+let bundleAudio = [
+    "bbc-birds-1.m4a",
+    "bbc-birds-2.m4a",
+    "scale-1.m4a"
+];
+
+// Create a Audio Player given a file stored in the app bundle
+// Detailed documntation on AVAudioPlayer
+//  https://developer.apple.com/documentation/avfaudio/avaudioplayer
+
+func loadBundleAudio(_ fileName:String) -> AVAudioPlayer? {
+    let path = Bundle.main.path(forResource: fileName, ofType:nil)!
+    let url = URL(fileURLWithPath: path)
+    do {
+        return try AVAudioPlayer(contentsOf: url)
+    } catch {
+        print("loadBundleAudio error", error)
+    }
+    return nil
+}
+
+struct PlayAudioView: View {
+    @State private var soundIndex = 0
+    @State private var soundFile = bundleAudio[0]
+    @State private var player: AVAudioPlayer? = nil
+    var body: some View {
+        TimelineView(.animation) { context in
+            VStack {
+                HStack {
+                    Button("Play") {
+                        print("Button Play")
+                        player = loadBundleAudio(soundFile)
+                        print("player", player as Any)
+                        // Loop indefinitely
+                        player?.numberOfLoops = -1
+                        player?.play()
+                    }
+                    Button("Stop") {
+                        print("Button Stop")
+                        player?.stop()
+                    }
+                    Button("Next") {
+                        soundIndex = (soundIndex+1) % bundleAudio.count
+                        soundFile = bundleAudio[soundIndex];
+                    }
+                }
+                Text("soundIndex \(soundIndex)")
+                Text("soundFile \(soundFile)")
+                if let player = player {
+                    Text("duration " + String(format: "%.1f", player.duration))
+                    Text("currentTime " + String(format: "%.1f", player.currentTime))
+                }
+            }
+        }
+    }
+}
+
+struct Previews: PreviewProvider {
+    static var previews: some View {
+        PlayAudioView()
+    }
+}
 /*
  let urlSounds = ["https://www.youtube.com/watch?v=q76bMs-NwRk"]
 
