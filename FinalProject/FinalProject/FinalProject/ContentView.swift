@@ -53,7 +53,7 @@ struct ContentView: View {
             MapView()
                 .edgesIgnoringSafeArea(.all)
                 .frame(height: 300)
-            ContentView()
+//            ContentView()
             
         }
     }
@@ -129,6 +129,6 @@ struct HomeView: View {
 
 #Preview {
     ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+//        .modelContainer(for: Item.self, inMemory: true)
 }
 
